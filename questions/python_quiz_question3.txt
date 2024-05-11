@@ -1,0 +1,22 @@
+Name:
+
+Date:
+
+		Python OOP Quiz(paper 3)
+
+Q:What are the main principles of OOP?
+a. Loops, Fanctions, Variables
+b. Encapsulation,Inheritance,Polymorhism
+c. Iteration, Recursion, Data structures
+
+
+Q:What does 'self' represent in OOP?
+a. The class
+b. The method
+c. The object
+
+
+Q:What is the full meaning of OOP?
+a. Object Oriented Programming
+b. Only Object Passes
+c. Object of the Program
