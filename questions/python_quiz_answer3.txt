@@ -1,3 +1,0 @@
-Object of the Program
-The method
-Iteration, Recursion, Data structures

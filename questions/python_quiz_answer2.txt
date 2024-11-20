@@ -1,3 +1,0 @@
-Only Object Passes
-The object
-Encapsulation,Inheritance,Polymorhism
