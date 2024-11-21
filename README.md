@@ -54,11 +54,12 @@ exam_question_generator_and_grading/
 
 ### **Setup**
 
-1.  bashCopy codegit clone https://github.com/your-username/exam\_question\_generator.gitcd exam\_question\_generator
+1.  git clone https://github.com/your-username/exam_question_generator_and_grading.git
+    cd exam_question_generator_and_grading
     
 2.  **Ensure the required folder structure**:
     
-    *   Ensure questions/ and answers/ directories exist in the project root.
+    *   Ensure **questions** and **answers** directories exist in the project root.
         
     *   If they are missing, the scripts will create them automatically.
         
@@ -71,23 +72,23 @@ exam_question_generator_and_grading/
 
 #### **1\. Generate Quizzes**
 
-Use the generate\_questions\_main.py script to generate quizzes for multiple students:
+Use the **generate_questions_main.py** script to generate quizzes for multiple students:
 ```sh
 python3 -m src.generate_questions_main
 ```
 
 *   Enter the number of students when prompted.
     
-*   The script will generate quiz files in the questions/ folder and corresponding empty answer files in the answers/ folder.
+*   The script will generate quiz files in the **questions** folder and corresponding empty answer files in the **answers** folder.
     
 
 #### **2\. Fill in the Answer Files**
 
-Manually open the files in the answers/ folder (e.g., python\_quiz\_answer1.txt) and provide the answers for each student.
+Manually open the files in the **answers** folder (e.g., 'python_quiz_answer1.txt') and provide the answers for each student.
 
 #### **3\. Grade Answers**
 
-Run the grade\_answers\_main.py script to grade the answers:
+Run the **grade_answers_main.py** script to grade the answers:
 ```sh
 python3 -m src.grade_answers_main
 ```
@@ -103,8 +104,8 @@ python3 -m src.grade_answers_main
     
     *   Enter the number of students: 2
         
-    *   Generated quiz for Student 1 at questions/python\_quiz\_question1.txt
-    Generated quiz for Student 2 at questions/python\_quiz\_question2.txt
+    *   Generated quiz for Student 1 at **questions/python_quiz_question1.txt**
+    Generated quiz for Student 2 at **questions/python_quiz_question2.txt**
         
 2.  **Grade Answers**:
     
@@ -133,9 +134,9 @@ python3 -m src.grade_answers_main
 
 ### Customize Functionality
 
-*   Modify src/quiz.py to change the randomization logic or grading rules.
+*   Modify **src/quiz.py** to change the randomization logic or grading rules.
     
-*   Adjust src/generate\_questions\_main.py or src/grade\_answers\_main.py for specific workflows.
+*   Adjust **src/generate_questions_main.py** or **src/grade_answers_main.py** for specific workflows.
     
 
 **Contributing**
@@ -158,5 +159,3 @@ Contributions are welcome! Feel free to open issues or submit pull requests for:
     
 *   Special thanks to educators who inspire projects like this!
     
-
-Feel free to replace your-username with your GitHub username in the clone URL. Let me know if you’d like further customizations! 😊
